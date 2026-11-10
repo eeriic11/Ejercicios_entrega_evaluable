@@ -13,13 +13,13 @@ int main() {
     
     for (int i = 0; i < 100; i++) {
         if (flip() == 1) {
-            cout << "Heads\n";
+            cout << "Cara\n";
             caras++;
         } else {
-            cout << "Tails\n";
+            cout << "Cruz\n";
             cruces++;
         }
     }
-    cout << "Total caras (Heads): " << caras << "\nTotal cruces (Tails): " << cruces << "\n";
+    cout << "Total caras: " << caras << "\nTotal cruces: " << cruces << "\n";
     return 0;
 }
